@@ -1,0 +1,13 @@
+/*Breakpoints*/
+@media (min-width: 280px) and (max-width: 500px){
+    header a img{
+        width: $primaryWidth;
+        height: 35vh;
+    }  
+}     
+      
+@media (min-width: 500px) and (max-width: 767px){
+    .altPhoto{
+        height: auto;
+    }
+}

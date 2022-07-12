@@ -4,21 +4,22 @@
     img{
         width: $secondaryWidth;
         height: $secondaryHeight;
-        ul li a{
-            color: map-get($map: $paleta, $key: 'white');
-            font-size: $textSm;
-            font-family: $secondaryFont;
-            font-weight: $regular;
-            background-image: linear-gradient(currentColor, currentColor);
-   			background-position: 0% 100%;
-    		background-repeat: no-repeat;
-    		background-size: 0% 2px;
-    	    transition: background-size .3s;
-            &:hover{
-                color:map-get($map: $paleta, $key:'white' );
-                font-weight: $bold;
-                background-size: 100% 2px;
-            }
-        }    
     }
+            ul li a{
+                color: map-get($map: $paleta, $key: 'white');
+                font-size: $textSm;
+                font-family: $secondaryFont;
+                font-weight: $regular;
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+                &:hover{
+                    color:map-get($map: $paleta, $key:'white' );
+                    font-weight: $bold;
+                    background-size: 100% 2px;
+                }
+            }    
+    
 }
