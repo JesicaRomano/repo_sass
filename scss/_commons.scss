@@ -1,0 +1,63 @@
+body{
+    background-image: url(../img/leaves.webp);
+    background-attachment: scroll;
+}
+
+//maps
+$paleta: (
+'one': #ffc0cb,
+'two': #f870bf,
+'three': rgb(0, 4, 255),
+'white': #f0f0f0,
+'black': #0f0f0f,
+);
+
+//Defino estilos de textos
+h2,
+h3,
+h5{
+    font-family: $fontMain;
+    font-weight: $bold;
+    color: map-get($map: $paleta, $key: 'three');
+}
+p{
+    font-family: $secondaryFont;
+    font-weight: $regular;
+    font-size: $textSm;
+    margin-left: 10px;
+}
+h2{
+    font-size: $textXl;
+    margin-left: 10px;
+}
+h3{
+    font-size: $textLg;
+    margin-left: 10px;
+}
+h5{
+    font-size: $textMd;
+}
+
+/* Selectores avanzados */
+main p.one:first-of-type{
+    font-family: $fontMain;
+    font-weight: $bold;
+    font-size: $textMd;
+}
+main p.one:first-letter{
+    font-size: 2rem;
+}
+
+/*Breakpoints*/
+@media (min-width: 280px) and (max-width: 500px){
+    header a img{
+        width: $primaryWidth;
+        height: 35vh;
+    }  
+}     
+      
+@media (min-width: 500px) and (max-width: 767px){
+    .altPhoto{
+        height: auto;
+    }
+}

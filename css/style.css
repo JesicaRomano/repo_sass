@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;600 & family= Roboto & display=swap');
+
+body{
+    background-image: url(../img/leaves.webp);
+    background-attachment: scroll;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color:rgb(0, 4, 255);
+    margin-left: 10px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-left: 10px;
+    color:rgb(0, 4, 255);
+}
+h5{
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color:rgb(0, 4, 255);
+}
+p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+} 
+#Botonera{
+    background: linear-gradient(to top, #f870bf, #ffc0cb);
+}
+    #Botonera img{
+        width: 120px;
+        height: 70px;
+    }
+        #Botonera ul li a{
+            color: white;
+            font-size: 1.4rem;
+            font-weight: 400;
+            background-image: linear-gradient(currentColor, currentColor);
+   			background-position: 0% 100%;
+    		background-repeat: no-repeat;
+    		background-size: 0% 2px;
+    		transition: background-size .3s;
+        }
+        #Botonera ul li a:hover{
+            color:white;
+            font-weight: 600;
+            background-size: 100% 2px;
+        }
+        
+header a img{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 5vh;
+}     
+footer{
+    background: linear-gradient(to top, #ffc0cb, #f870bf);
+    margin-top: 20px;
+}  
+    footer h3{
+        color:white;
+    }
+        footer div a img{
+            margin-right:15px;
+            margin-top:10px;
+            width: 40px;
+        }
+
+/* Aplico clases */ 
+.altPhoto{
+    height: 85vh;
+}  
+.altImage{
+    height: 85vh;
+}
+.btn-pink{
+    color: white;
+    background: linear-gradient(to top, #ffc0cb, #f870bf);
+}
+.spaceContent{
+    margin-bottom: 20px;
+}
+
+/* Selectores avanzados */
+main p.one:first-of-type{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+main p.one:first-letter{
+    font-size: 2rem;
+}
+
+@media (min-width: 280px) and (max-width: 500px){
+    header a img{
+        width: 100%;
+        height: 35vh;
+    }  
+}     
+
+@media (min-width: 500px) and (max-width: 767px){
+    .altPhoto{
+        height: auto;
+    }
+}

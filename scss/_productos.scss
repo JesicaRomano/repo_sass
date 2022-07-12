@@ -1,0 +1,13 @@
+/* Defino clases*/
+.altPhoto,
+.altImage{
+    height: 85vh;
+}
+
+.btn-pink{
+    color: map-get($map: $paleta, $key: 'white');
+    background: linear-gradient(to top, map-get($map: $paleta, $key: 'one'), map-get($map: $paleta, $key: 'two'));
+}
+.spaceContent{
+    margin-bottom: 20px;
+}

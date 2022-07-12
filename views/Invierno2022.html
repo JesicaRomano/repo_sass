@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../img/store_building_market_shop_icon_207733.png" type="image/x-icon">
+    <title>Boutique</title>
+    </head>
+    <body>
+        <!-- Start Nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-pink sticky-top" id="Botonera">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/Logo.jpg" alt="Logo Presentación de Boutique">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="../views/Invierno2022.html">Invierno 2022</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../views/Vintage.html">Vintage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="../views/Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../views/Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Nav -->
+        <!-- Start Header -->
+        <header class="spaceContent">
+            <a href="../index.html">
+                <img src="../img/mediamodifier-kJXGTOY1wLQ-unsplash.jpg" alt="Foto Presentacion de Invierno2022" class="w-100 d-block">
+            </a>  
+        </header>
+        <!-- End Header -->
+        <!-- Start galery con sistema de grillas -->
+        <main>
+            <h2 class="textLeft">Elija producto, talle, color y agreguelo al carrito</h2>
+            <section class="py-3 spaceContent">
+                <div class="container-fluid">
+                    <h3 class="text-sm-start">Pantalones</h3>
+                    <div class="row">
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/mom.webp" alt="Foto Pantalón Mom Jeans" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Pantalón Mom Jeans</figcaption>
+                            <p>$10000</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>      
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/jeansroto.webp" alt="Pantalón de Jeans Chupin con roturas en las rodillas" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Pantalón de Jeans con roturas</figcaption>
+                            <p>$10000</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>         
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">    
+                            <img src="../img/sastrero.webp" alt="Pantalón Sastrero" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Pantalón Sastrero</figcaption>
+                            <p>$8000</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                    </div>
+                </div>
+            </section>   
+            <section class="py-3 spaceContent">
+                <div class="container-fluid">
+                    <h3 class="text-sm-start">Sweater</h3>
+                    <div class="row">
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/sweaterliso.webp" alt="Sweater de lana liso" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Sweater Liso</figcaption>
+                            <p>$7500</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/cardigan.webp" alt="Cardigan liso" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Cardigan Liso</figcaption>
+                            <p>$7500</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="violeta">violeta</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/sweatertrenzado.webp" alt="Sweater de lana trenzado" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Sweater de lana trenzados</figcaption>
+                            <p>$7500</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/buzo.webp" alt="Buzo liso con capucha" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Buso liso</figcaption>
+                            <p>$8000</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="beige">beige</option>
+                                    <option value="azul">azul</option>
+                                    <option value="rosa">rosa</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/sweatert.webp" alt="Sweater de lana con ochos" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Sweater de lana con detalle de ochos</figcaption>
+                            <p>$7500</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                    </div>    
+                </div>    
+            </section>
+            <section class="py-3 spaceContent">
+                <div class="container-fluid">
+                    <h3 class="text-sm-start">Remeras y camisas</h3>
+                    <div class="row">
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/camisa.webp" alt="Camisa estampada mangas largas" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Camisa estampada</figcaption>
+                            <p>$5500</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/polmorley.webp" alt="Polera de morley lisa manga larga" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Polera de morley</figcaption>
+                            <p>$2400</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/poleraalgodon.webp" alt="Polera lisa de algodón" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Polera de algodón</figcaption>
+                            <p>$3500</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/blusacruzada.webp" alt="Blusa cruzada lisa de gasa mangas largas" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Blusa cruzada</figcaption>
+                            <p>$3500</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </div>   
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/remeramll.webp" alt="Remeras de algodón manga larga" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Remera de algodón</figcaption>
+                            <p>$3500</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </div>   
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                    </div>
+                </div>    
+            </section>
+            <section class="py-3 spaceContent">
+                <div class="container-fluid">
+                    <h3 class="text-sm-start">Abrigos</h3>
+                    <div class="row">
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/abrigoPaño.webp" alt="Tapado largo de paño" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Tapado largo de paño</figcaption>
+                            <p>$15000</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/abrigoCuero.webp" alt="Tapado largo de cuero" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Tapado de cuero</figcaption>
+                            <p>$13000</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/campera.webp" alt="Campera inflada larga" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Campera larga</figcaption>
+                            <p>$11000</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/camperacorta.webp" alt="Campera corta inflada" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Campera corta inflada</figcaption>
+                            <p>$9500</p>
+                            <div>
+                                <label for="talle">Talle</label>
+                                <select class="input" id="talle" name="talle" required>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>  
+                            </div>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                    </div>
+                </div>    
+            </section>
+            <section class="py-3 spaceContent">
+                <div class="container-fluid">
+                    <h3 class="text-sm-start">Accesorios</h3>
+                    <div class="row">
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/gorraLana.webp" alt="Gorro tejido de lana" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Gorro de lana</figcaption>
+                            <p>$1500</p>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/guantes.webp" alt="Guantes gamuzados" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Guantes gamuzados</figcaption>
+                            <p>$3000</p>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                        <figure class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="../img/bufanda.webp" alt="Bufanda a cuadros de lana" class="w-100 d-block img-thumbnail altPhoto">
+                            <figcaption>Bufanda</figcaption>
+                            <p>$3500</p>
+                            <div>
+                                <label for="color">Color</label>
+                                <select class="input" id="color" name="color" required>
+                                    <option value="negro">negro</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="marrón">marrón</option>
+                                    <option value="azul">azul</option>
+                                    <option value="verde">verde</option>
+                                </select>    
+                            </div>    
+                            <button type="submit" class="btn btn-pink">Agregar al carrito</button>
+                        </figure>
+                    </div>
+                </div>    
+            </section>
+            <section>
+                <h2>Tabla de talles de Indumentaria</h2>
+                <table class="table table-striped table-hover">
+                    <tr class="interColor">
+                        <th>Talle</th>
+                        <th>Busto</th>
+                        <th>Cintura</th>
+                        <th>Cadera</th>
+                    </tr>
+                    <tr>
+                        <td>XS</td>
+                        <td>82cm</td>
+                        <td>64cm</td>
+                        <td>90cm</td>
+                    </tr>
+                    <tr>
+                        <td>S</td>
+                        <td>86cm</td>
+                        <td>68cm</td>
+                        <td>94cm</td>
+                    </tr>
+                    <tr>
+                        <td>M</td>
+                        <td>90cm</td>
+                        <td>72cm</td>
+                        <td>98cm</td>
+                    </tr>
+                    <tr>
+                        <td>L</td>
+                        <td>94cm</td>
+                        <td>76cm</td>
+                        <td>102cm</td>
+                    </tr>
+                    <tr>
+                        <td>XL</td>
+                        <td>98cm</td>
+                        <td>80cm</td>
+                        <td>106cm</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <!-- End galery -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- Start footer -->
+        <footer class="d-flex flex-column justify-content-center align-items-center">
+            <h3>Seguinos en nuestras redes sociales</h3>
+            <div>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../img/Facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="../img/Twitter-icon.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../img/Instagram-icon.png" alt="Instagram">
+                </a>
+            </div>
+        </footer>
+        <!-- End footer -->
+    </body>
+</html>

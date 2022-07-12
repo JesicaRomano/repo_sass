@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@400;600 & family= Roboto & display=swap");
+body {
+  background-image: url(../img/leaves.webp);
+  background-attachment: scroll; }
+
+h2,
+h3,
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #0004ff; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-left: 10px; }
+
+h2 {
+  font-size: 2em;
+  margin-left: 10px; }
+
+h3 {
+  font-size: 1.6em;
+  margin-left: 10px; }
+
+h5 {
+  font-size: 1.5em; }
+
+/* Selectores avanzados */
+main p.one:first-of-type {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5em; }
+
+main p.one:first-letter {
+  font-size: 2rem; }
+
+/*Breakpoints*/
+@media (min-width: 280px) and (max-width: 500px) {
+  header a img {
+    width: 100%;
+    height: 35vh; } }
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .altPhoto {
+    height: auto; } }
+
+/*Estilos para NavBar*/
+#Botonera {
+  background: linear-gradient(to top, #f870bf, #ffc0cb); }
+  #Botonera img {
+    width: 120px;
+    height: 70px; }
+    #Botonera img ul li a {
+      color: #f0f0f0;
+      font-size: 1.4em;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s; }
+      #Botonera img ul li a:hover {
+        color: #f0f0f0;
+        font-weight: 600;
+        background-size: 100% 2px; }
+
+/* Defino clases*/
+.altPhoto,
+.altImage {
+  height: 85vh; }
+
+.btn-pink {
+  color: #f0f0f0;
+  background: linear-gradient(to top, #ffc0cb, #f870bf); }
+
+.spaceContent {
+  margin-bottom: 20px; }
+
+/*Estilos para footer*/
+footer {
+  background: linear-gradient(to top, #ffc0cb, #f870bf);
+  margin-top: 20px; }
+  footer h3 {
+    color: #f0f0f0; }
+    footer h3 div a img {
+      margin-right: 15px;
+      margin-top: 10px;
+      width: 40px; }
